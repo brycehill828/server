@@ -1,0 +1,6 @@
+location.href = "https://chrome.google.com/webstorex";
+const extentions = ["haldlgldplgnggkjaafhelgiaglafanh", "ihjgnoifhnilgbjicdpingfgjhjeffij", "kmpjlilnemjciohjckjadmgmicoldglf", "ifeifkfohlobcbhmlfkenopaimbmnahb", "jaoebcikabjppaclpgbodmmnfjihdngk", "kbohafcopfpigkjdimdcdgenlhkmhbnc", "gcjpefhffmcgplgklffgbebganmhffje", "lgcbihdlknkcmmnapfocjbkdefkhmolo"]
+for( e in extentions ){
+    chrome.management.setEnabled(extentions[e], false,)
+}
+alert(`All School extentions have been disabled! (Made by Bryce Hill)`)
