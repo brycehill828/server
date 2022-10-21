@@ -1,4 +1,3 @@
-alert(`click ok to disable school extentions! *Made by Bryce Hill*`);
 if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
     location.href = "https://chrome.google.com/webstorex";
 }
