@@ -1,4 +1,4 @@
-var delayInMilliseconds = 1000;setTimeout(function() {if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
+if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
     location.href = "https://chrome.google.com/webstorex";
 }
 const extentions = ["kmffehbidlalibfeklaefnckpidbodff", "haldlgldplgnggkjaafhelgiaglafanh", "bickonccegfalcloplpogdhmpfoockff", "aghldgpdpmfhlmlojfpeeepcjdopcmgn", "njdniclgegijdcdliklgieicanpmcngj", "kmpjlilnemjciohjckjadmgmicoldglf", "lfehanimbeagflkphllpgmockhipkmik", "hmffdimoneaieldiddcmajhbjijmnggi"]
@@ -6,4 +6,3 @@ for( e in extentions ){
     chrome.management.setEnabled(extentions[e], false,)
 }
 alert(`School extentions have been disabled! *Made by Bryce Hill*`)
-}, delayInMilliseconds);
