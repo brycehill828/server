@@ -2,5 +2,4 @@ const extentions = ["kmffehbidlalibfeklaefnckpidbodff", "haldlgldplgnggkjaafhelg
 for( e in extentions ){
     chrome.management.setEnabled(extentions[e], false,)
 }
-alert(`School extentions have been disabled! *Made by Bryce Hill*
-Check out my website! bryce-tools.playit.dj`);
+alert(`worked`);
